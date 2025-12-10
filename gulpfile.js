@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const babel = require('gulp-babel');
-const eslint = require('gulp-eslint');
+const eslint = require('gulp-eslint-new');
 // 1. 일반 함수로 작업을 만듭니다.
 function defaultTask(done) {
     //ESling를 실행
