@@ -7,3 +7,6 @@ console.log(targetTempC,room1);
 
 const ROOM_TEMP_C = 21.5, MAX_TEMP_C = 30;
 console.log(ROOM_TEMP_C,MAX_TEMP_C);
+
+let room = 'conference_room_a';
+console.log(room);
