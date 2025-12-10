@@ -1,11 +1,20 @@
+
+# 1. 시스템 파일 무시 (윈도우, 맥)
 *.log
+desktop.ini
+.DS_Store
+Thumbs.db
 
-#프로젝트 의존성
-node_modules
+# 2. IDE(WebStorm, IntelliJ) 설정 파일 무시
+.idea/
+*.iml
 
-dist
+# 3. Node.js 의존성 폴더 (가장 중요! 절대 올리면 안 됨)
+node_modules/
 
-public/dist
+# 4. 빌드 결과물 (Gulp로 생성된 파일들은 소스가 아니므로 제외)
+dist/
+public/dist/
 #임시 파일
 *.tmp
 *~
