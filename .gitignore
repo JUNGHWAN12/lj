@@ -3,6 +3,9 @@
 #프로젝트 의존성
 node_modules
 
+dist
+
+public/dist
 #임시 파일
 *.tmp
 *~

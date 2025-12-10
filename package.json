@@ -11,5 +11,10 @@
     "underscore": "^1.13.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^5.0.1",
+    "gulp-babel": "^8.0.0"
+  }
 }
